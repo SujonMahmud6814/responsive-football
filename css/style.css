@@ -290,6 +290,12 @@ input:focus-visible {
         padding: 0px;
     }
     form.subscribe-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form.subscribe-form {
         padding: 0px 15px;
     }
     form.subscribe-form input {
@@ -353,6 +359,13 @@ input:focus-visible {
     }
     form.subscribe-form input {
         width: 100%;
+    }
+    form.subscribe-form {
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     /* Footer section style  */
 }
