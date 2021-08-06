@@ -198,9 +198,6 @@ section.highlights-section.container {
 
 /* For mobile Style  */
 @media only screen and (max-width: 688px) {
-    body {
-        background-color: rgb(48, 180, 224);
-    }
     /* Slider section start  */
     .slider-section {
         display: grid;
@@ -218,6 +215,9 @@ section.highlights-section.container {
     .slider-image {
         margin-bottom: 40px;
     }
+    .slider-image img:hover {
+        transform: scale(1);
+    }
     /* Post section start  */
     .container {
         width: 100%;
@@ -225,6 +225,11 @@ section.highlights-section.container {
     .posts {
         grid-template-columns: repeat(1, 1fr);
     }
+    .post-image img:hover {
+        transform: scale(1);
+    }
+    /* Highlight section start  */
+
     section.highlights-section.container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -238,6 +243,9 @@ section.highlights-section.container {
         margin: 0px auto;
         width: 350px;
     }
+    .highlight-image img:hover {
+        transform: scale(1);
+    }
     .highlight-content {
         padding: 15px;
     }
@@ -247,10 +255,14 @@ section.highlights-section.container {
         margin: 0px 0px 10px 0px;
         line-height: 40px;
     }
+    /* Footer style start  */
 
     .logo-image {
         width: 230px;
         margin-bottom: 20px;
+    }
+    .logo-image img:hover {
+        transform: scale(1);
     }
 }
 /* For Tablet Style  */
