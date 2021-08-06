@@ -52,8 +52,7 @@ body {
     margin-left: 5px;
 }
 .slider-image img {
-    width: 100%;
-    height: 100%;
+    width: 100%;    
     transition: transform 0.3s ease;
 }
 .slider-image img:hover {
@@ -81,7 +80,6 @@ body {
 }
 .post-image img {
     width: 100%;
-    height: 100%;
     transition: transform 0.3s ease;
 }
 .post-image img:hover {
@@ -135,7 +133,6 @@ section.highlights-section.container {
 
 .highlight-image img {
     width: 100%;
-    height: 100%;
     transition: transform 0.3s ease;
 }
 .highlight-image img:hover {
@@ -157,7 +154,6 @@ section.highlights-section.container {
 }
 .logo-image img {
     width: 100%;
-    height: 100%;
     transition: transform 0.3s ease;
 }
 .logo-image img:hover {
@@ -266,7 +262,40 @@ section.highlights-section.container {
 }
 /* For Tablet Style  */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
-    body {
-        background-color: rgb(15, 228, 32);
+
+    /* slider section style  */
+    .slider-section {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        padding: 100px 100px;
+        background-color: #2d25a0;
     }
+
+    /* Post section style  */
+    .container{
+        width: 100%;
+    }
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        padding: 0px 15px;
+    }
+    /* highlight section style  */
+    .highlights-section {
+  margin: 100px 0px;
+    }
+    .highlight-content {
+        margin-left: 15px;
+    }
+    .highlight-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight-image {
+        margin-right: 15px;
+        overflow: hidden;
+    }
+    /* Footer section style  */
+
 }
