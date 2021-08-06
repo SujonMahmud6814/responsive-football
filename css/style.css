@@ -258,8 +258,7 @@ section.highlights-section.container {
     /* Footer style start  */
 
     .logo-image {
-        width: 230px;
-        margin-bottom: 20px;
+        width: 300px;
     }
     .logo-image img:hover {
         transform: scale(1);
