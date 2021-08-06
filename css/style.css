@@ -331,6 +331,12 @@ article.gallery-images {
         width: 100%;
     }
 
+    /* Gallery Section added */
+    article.gallery-images {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+
     /* Footer style start  */
 
     .logo-image {
@@ -390,5 +396,10 @@ article.gallery-images {
         align-items: center;
         flex-direction: column;
     }
-    /* Footer section style  */
+    /* Gallery section start  */
+    article.gallery-images {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
 }
